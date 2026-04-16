@@ -48,7 +48,7 @@ def get_disney_deals():
     return deals
 
 def send_email(deals):
-    gmail_user = "YOUR_EMAIL@gmail.com" # <--- Change to your email
+    gmail_user = "joshclaudebot@gmail.com" # <--- Change to your email
     gmail_password = os.environ.get('GMAIL_PASS')
 
     msg = EmailMessage()
